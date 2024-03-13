@@ -40,7 +40,6 @@ const login = async (req, res) => {
 
         let data = {
             _id: user._id,
-            role: user.role,
             email: user.email
         }
 
