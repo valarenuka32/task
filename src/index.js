@@ -8,8 +8,6 @@ const { connectDB } = require("./db/dbconnection");
 const config = require("./config/config");
 const routes = require("./routes");
 
-
-
 const app = express();
 
 // database connection
